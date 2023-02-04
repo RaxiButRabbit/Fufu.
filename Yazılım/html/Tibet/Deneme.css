@@ -1,0 +1,23 @@
+.ornek{
+    width: 900px;
+    margin: 10px;
+}
+.sola-kaydir{
+    float:left;
+    padding:0 10px 10px 0;
+}
+h3{
+    color:darkgreen;
+}
+h1{
+    color:darkred;
+    font-family: Verdana;
+    background-color:black;
+    width: 25%;
+    margin: auto;
+    
+}
+p{
+    color:black;
+    font-family:Arial
+}

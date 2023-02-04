@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../javascript/images/AlpRage.png">
+</head>
+<body>
+
+<h2>Emojiler</h2>
+
+<p>Ağlatmak ya da UwUlamak icin tıklayınız.</p>
+
+<button id="UwU">UwU'latmak icin.</button>
+<img style="width: 150px; height: 150px;" id="img" alt="UwU" src="../javascript/images/Bansheeuwu.png">
+<button id="Cry">Ağlatmak icin.</button>
+
+<script>
+    let uwu = document.getElementById("UwU");
+    let cry = document.getElementById("Cry");
+    let img = document.getElementById("img");
+
+    uwu.addEventListener("click",function() {
+        img.src = "../javascript/images/Bansheeuwu.png"
+   });
+
+    cry.addEventListener("click", function() {
+        img.src = "../javascript/images/bansheecry.png"
+    });
+
+</script>
+
+</body>
+</html>
