@@ -1,6 +1,6 @@
 body{
     background-image: url(../test/images/smblur1920-1080.png);
-    background-color: #cccccc;
+
 }
 h1{
     color: white;
@@ -43,7 +43,7 @@ ul{
 
 #Q{
     position: absolute;
-    top: 80%
+    top: 110%
 }
 h2{
     color: white;
@@ -58,7 +58,6 @@ h2{
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
-    float: left;
     position: relative;
     overflow: hidden;
     transition: color 1,1s;
