@@ -23,7 +23,7 @@ ul{
 
 #gay{
 
-    background-color:rgb(243, 88, 61);
+    background-color:rgb(110, 61, 243);
     border: none;
     position: relative;
     display: inline-block;
@@ -49,7 +49,7 @@ h2{
     color: white;
 }
 .btn-group .button {
-    background-color:rgb(243, 88, 61);
+    background-color:rgb(255, 217, 0);
     color: rgb(0, 0, 0);
     padding: 15px 32px;
     text-align: center;
@@ -60,17 +60,13 @@ h2{
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: color 1,1s;
+    transition: color 1s;
     transition-duration: 1s;
+    border-radius: 8px;
   }
-  
-  .btn-group .button:not(:last-child) {
-    border-right: none; 
-  }
-  
   .btn-group .button:hover {
-    background-color: rgb(187, 48, 24);
-    color: rgb(255, 255, 255);
+    background-color: rgb(28, 141, 13);
+    color: rgb(231, 227, 0);
   }
   .btn-group{
     position: absolute;
