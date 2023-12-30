@@ -30,9 +30,9 @@ const car = {
 document.getElementById("4").innerHTML = "The car type is " + car.type ;
 
 const person = {
-  FN:"Rabia", 
-  LN:"Durmaz", 
-  age:17
+  FN:"RaRaxi", 
+  LN:"Rabbit", 
+  age:18
 };
 document.getElementById("5").innerHTML = person.FN + " is " + person.age + " years old";
 
@@ -50,9 +50,9 @@ let answer1 = "Evet canim."
 document.getElementById("7").innerHTML = answer1;
 
 let text= "SKDGMNDKLŞFNDFHLŞ"
-document.getElementById(8).innerHTML = text.length;
+document.getElementById("8").innerHTML = text.length;
 
 let text1= "Banana, apple, music, rabbit end."
 let part= text1.slice(0,10)
-document.getElementById(9).innerHTML = part;
+document.getElementById("9").innerHTML = part;
 

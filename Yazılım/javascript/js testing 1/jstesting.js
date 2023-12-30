@@ -19,7 +19,7 @@ let u, k, j, l, h;
 j= 5;
 k= 3;
 l= j + k;
-ü= "hop" + (5 + 3);
+u= "hop" + (5 + 4);
 h= u + l;
 h+= " sa kanka"
 document.getElementById("sayi").innerHTML = h;
