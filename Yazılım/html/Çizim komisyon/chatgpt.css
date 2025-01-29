@@ -1,0 +1,125 @@
+/* Genel Stil */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #4caf50 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+header h1 {
+    float: left;
+    display: inline;
+}
+
+/* Hero Bölümü */
+#hero {
+    background: #333;
+    color: #fff;
+    padding-top: 50px;
+    min-height: 100px;
+    border-bottom: #4caf50 3px solid;
+}
+
+#hero h2 {
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background: #ffffff;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #4caf50;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+/* Özellikler Bölümü */
+#features {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature i {
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

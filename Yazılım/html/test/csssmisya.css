@@ -11,6 +11,13 @@ p{
 ul{
     color: rgb(255, 255, 255);
 }
+#kocam{
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    font-size: 60px;
+    
+}
 #main-content{
     position: absolute;
     top: 150px;
